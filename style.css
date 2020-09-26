@@ -20,6 +20,7 @@ body {
   align-items: center;
   background-color: var(--background);
   color: var(--white);
+  position: relative;
 }
 
 .main-container {
@@ -87,6 +88,14 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
+.main-container .text-container .button-container .download {
+  background: var(--white);
+  color: var(--background);
+
+}
+
+
 .main-container .text-container .button-container .download:hover {
   background: var(--primary);
   color: white;
@@ -124,8 +133,8 @@ footer {
 }
 
 footer svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin-left: 17px;
   color: white;
 }
@@ -140,6 +149,10 @@ footer svg {
   }
   .main-container .img-container img{
     width: 420px;
+  }
+
+  body {
+    padding-bottom: 70px;
   }
 
 }
@@ -167,7 +180,6 @@ footer svg {
 
   body {
     text-align: center;
-    padding: 15px;
     min-height: 100vh;
     display: block;
   }
